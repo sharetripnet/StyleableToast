@@ -1,14 +1,14 @@
 plugins {
     id 'com.android.library'
-    id 'com.vanniktech.maven.publish'
 }
 
 android {
-    compileSdk 30
+    namespace "io.github.muddz.styleabletoast"
+    compileSdk 35
 
     defaultConfig {
-        minSdk 16
-        targetSdk 30
+        minSdk 21
+        targetSdk 35
     }
     buildTypes {
         release {
