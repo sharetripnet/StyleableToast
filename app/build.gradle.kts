@@ -56,7 +56,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(project(":styleabletoast"))
-//    implementation("com.github.sharetripnet:StyleableToast:v0.0.4")
+//    implementation(project(":styleabletoast"))
+//    implementation("com.github.sharetripnet:StyleableToast:v0.0.5")
 
 }
