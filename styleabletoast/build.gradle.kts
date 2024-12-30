@@ -33,6 +33,19 @@ android {
     }
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            afterEvaluate { // Ensures the Android component is properly evaluated
+                from(components["release"])
+            }
+            groupId = "io.github.muddz" // Replace with your group ID
+            artifactId = "styleabletoast"          // Replace with your artifact ID
+            version = "v0.0.6"                 // Replace with your version
+        }
+    }
+}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
