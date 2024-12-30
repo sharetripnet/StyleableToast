@@ -98,3 +98,5 @@ before_install:
 
 This command should run successfully, and you should get the generated 
 files in `~/.m2/repository/` directory.
+
+Finally, git commit, and git tag. Now go to jitpack io, and you should see your library.
