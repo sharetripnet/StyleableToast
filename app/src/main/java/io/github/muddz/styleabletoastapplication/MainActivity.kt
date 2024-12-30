@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
-//import io.github.muddz.styleabletoast.StyleableToast
+import io.github.muddz.styleabletoast.StyleableToast
 import io.github.muddz.styleabletoastapplication.ui.theme.StyleableToastApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -41,8 +41,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier.clickable {
-//            StyleableToast.makeText(mContext,
-//                "this is a test message", R.style.AllStyles).show()
+            StyleableToast.makeText(mContext,
+                "this is a test message", R.style.AllStyles).show()
         }
     )
 }
